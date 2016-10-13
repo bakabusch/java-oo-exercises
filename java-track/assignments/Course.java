@@ -34,7 +34,7 @@ public class Course {
 			this.remainingSeats = this.remainingSeats -1;
 			return true;
 			}else{
-				System.out.println(s1);
+			//	System.out.println(s1);
 				return false;
 		}
 		}
@@ -45,7 +45,7 @@ public class Course {
 			butthead = butthead + poindexter.getGPA();
 		}
 		double beavis = butthead / RosterOfStudents.size();
-		System.out.println(beavis);
+		//System.out.println(beavis);
 		return beavis;	
 	}
 	
