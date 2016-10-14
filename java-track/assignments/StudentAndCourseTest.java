@@ -212,6 +212,7 @@ public class StudentAndCourseTest extends TestCase {
 				assertEquals("course averageGPA() not working properly", gpaSum / (i + 1), c.averageGPA(), 0.01);
 			}
 		}
+		
 	}
 
 	@Test
