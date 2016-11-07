@@ -22,7 +22,7 @@ public class Student {
 	public int getStudentID(){
 		return this.StudentID;
 	}
-	
+	 
 	public double getGPA(){
 		return this.GPA;
 	}

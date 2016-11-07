@@ -3,9 +3,9 @@ public class Robot {
 	private String name;
 	private int position;
 	private int speed;
-	private int orientation;
+	private String orientation;
 	
-	public Robot (String name, int position, int speed, char orientation){
+	public Robot (String name, int position, int speed, String orientation){
 		this.name = name;
 		this.position = position;
 		this.speed = speed;
